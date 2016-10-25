@@ -5,6 +5,7 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+  font-family: sans-serif;
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -14,4 +15,29 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.card {
+  border-radius: 10px;
+  border: 3px solid #333;
+  color: #333;
+}
+
+.card:hover {
+  background-color: #e6e6e6;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: #fff;
 }
